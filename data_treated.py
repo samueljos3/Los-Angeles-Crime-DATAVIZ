@@ -2,10 +2,9 @@
 
 import pandas as pd
 
-# Importando a base de dados
+
 df = pd.read_csv('base/Crime_Data_from_2020_to_Present.csv')
 
-# Dropando colunas que não serão utilizadas
 df = df.drop(['Crm Cd', 'Crm Cd 1', 'Crm Cd 2', 'Crm Cd 3', 'Crm Cd 4',
               'Cross Street', 'LOCATION', 'Mocodes', 'Premis Cd',
               'AREA', 'Rpt Dist No', 'Part 1-2', 'Weapon Used Cd'],
@@ -38,8 +37,8 @@ def classificar_periodo(time):
     else:
         return 'Desconhecido'
 
-# Aplicar a função a cada valor da coluna 'Time'
+# Aplicando a função a cada valor da coluna 'Time'
 df['Periodo'] = df['TIME OCC'].apply(classificar_periodo)
 
-# Salvando o DataFrame tratado em um arquivo CSV
+# Salvando o DF
 df.to_csv('base/Crime_Data_Treated.csv', index=False)
