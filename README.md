@@ -9,7 +9,7 @@ https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/
 
 ## Clone do projeto
 - Cole no terminal "git clone https://github.com/samueljos3/Projeto_ECVD2.git"
-- Baixe a base de dados pelo site e crie uma pasta "base" para armazenar a base real e a seu futuro tratamento
+- Baixe a base de dados pelo site e crie uma pasta "base" para armazenar a base real e seu futuro tratamento
 - Após isso, instale as dependências do projeto "pip install -r requirements.txt"
 
 
