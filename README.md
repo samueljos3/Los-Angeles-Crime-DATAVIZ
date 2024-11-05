@@ -4,7 +4,7 @@ O projeto foi feito a partir da seguinte base de dados referente a casos crimina
 
 ## Sobre o projeto
 - Este conjunto de dados reflete incidentes criminais na cidade de Los Angeles
-- O projeto visa criar um estudo de caso "Explicativo", com foco na tomada de decisão perante os dados
+- O projeto visa criar um estudo de caso que proporciona uma visão geral dos crimes, possibilitando tomadas de decisão
 - O arquivo `ECV_2_JOSUE_SAMUEL.pdf` é o trabalho formal gerado para a disciplina de Visualização de Dados
 
 
