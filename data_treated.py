@@ -42,3 +42,5 @@ df['Periodo'] = df['TIME OCC'].apply(classificar_periodo)
 
 # Salvando o DF
 df.to_csv('base/Crime_Data_Treated.csv', index=False)
+
+
